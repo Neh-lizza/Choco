@@ -1,0 +1,43 @@
+/*Styling for homepage*/
+.navbar {
+    background-color: #f0f0f0 !important;
+    padding: 1rem;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.nav-link {
+    color: #000 !important;
+    margin: 0 1rem;
+}
+
+.nav-link.active {
+    color: #007bff !important;
+}
+
+.hero {
+    position: relative;
+    min-height: 400px;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url('IMG-20241223-WA0004.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 0;
+}
+
+.highlight-box {
+    background-color: rgba(255, 255, 200, 0.8);
+    padding: 1rem;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.img-grid {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
